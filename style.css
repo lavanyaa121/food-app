@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.main-menu{
+    display: flex;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.btn{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left:300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    background-color: black;
+    width:80%;
+}
+.btn input{
+    width: 50%;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    background-color: #272A30;
+    border: none;
+    color: white;
+}
+.btn button{
+    width: 164px;
+    background-color: #eb2106;
+    color: white;
+    border-radius: 10px;
+    height: 36px;
+}
+.btn img{
+    width: 79px;
+    height: 65px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    margin-left: 300px;
+    margin-top: 23px;
+}
+.menu-details img{
+    width:100%;
+    border-radius: 10px;
+}
+.menu-details{
+    height: 288px;
+    background-color: #191D20;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menu-details p{
+    text-align: center;
+    margin-top: 5px;
+}
+.Menu{
+    margin-left: 300px;
+    margin-top: 77px;
+    font-size: 24px;
+}
+.aside h2{
+    font-size: 18px;
+    margin-bottom: 26px;
+    color: #f5e70d;
+    font-style: italic;
+}
+.quick-links h3{
+    margin: 10px 80px;
+}
+.orderList{
+    margin: 18px 0px;
+}
+.more-about h3{
+    margin: 10px 80px;
+}
+.aside{
+    position: fixed;
+    width: 300px;
+    background-color: black;
+    height: 900px;
+}
